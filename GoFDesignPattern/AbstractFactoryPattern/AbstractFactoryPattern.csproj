@@ -69,6 +69,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Camera.cs" />
+    <Compile Include="Model\EvCamera.cs" />
+    <Compile Include="Model\EvDayFactory.cs" />
+    <Compile Include="Model\EvLens.cs" />
+    <Compile Include="Model\HoCamera.cs" />
+    <Compile Include="Model\HoDayFactory.cs" />
+    <Compile Include="Model\HoLens.cs" />
+    <Compile Include="Model\IMakeCamera.cs" />
+    <Compile Include="Model\ITake.cs" />
+    <Compile Include="Model\Tester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Abstract Pattern Daiagram.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

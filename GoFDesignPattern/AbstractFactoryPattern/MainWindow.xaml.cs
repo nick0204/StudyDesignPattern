@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbstractFactoryPattern.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,9 @@ namespace AbstractFactoryPattern
         public MainWindow()
         {
             InitializeComponent();
+
+            Tester tester = new Tester();
+            tester.Test();
         }
     }
 }
